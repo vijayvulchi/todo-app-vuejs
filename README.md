@@ -1,38 +1,24 @@
-# my-vue-app (Todo)
+# my-vue-app (Todo with Vuejs, Expreejs and Mongoose (MongoDB))
 
 > A Vue.js project
 
 ## Pre-
+
 1. Install node if you do not have.
 2. Install {>/$} npm install -g vue-cli
-3. Create Root folder
-4. Go to root folder and run below command
-5. vue init webpack <app-name> e.g todo-vuejs
-6. Follow instructions and finish initial setup.
+3. Create Root folder e.g. todo-app-vuejs
 
-## Build Setup
+## Vuejs Setup (Frontend)
 
-``` bash
-# install dependencies
-npm install
+1. Go to root folder and run below command
+2. vue init webpack <app-name> e.g. todo-vuejs
+3. Follow instructions and finish initial setup.
+4. go to app folder e.g cd todo-vuejs
+5. npm install
+6. npm run dev or npm start
+7. your application runing here http://localhost:8080/
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Expressjs Setup (Backend)
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. You are in root folder e.g. todo-app-vuejs
+2. 
