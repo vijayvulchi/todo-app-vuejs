@@ -85,4 +85,33 @@ footer p {
   font-size: 11px;
   line-height: 30px;
 }
+/* helpers */
+.title-light {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+button {
+  box-shadow: none;
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+  color: #333333;
+  transition: box-shadow 300ms ease-in;
+}
+.btn:hover {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14);
+}
 </style>
