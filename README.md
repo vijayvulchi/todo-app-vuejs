@@ -1,6 +1,14 @@
-# my-vue-app
+# my-vue-app (Todo)
 
 > A Vue.js project
+
+## Pre-
+1. Install node if you do not have.
+2. Install {>/$} npm install -g vue-cli
+3. Create Root folder
+4. Go to root folder and run below command
+5. vue init webpack <app-name> e.g todo-vuejs
+6. Follow instructions and finish initial setup.
 
 ## Build Setup
 
