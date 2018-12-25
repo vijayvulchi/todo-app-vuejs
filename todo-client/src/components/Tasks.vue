@@ -1,11 +1,8 @@
 <template>
   <div class="tasks">
-    <h3>This file will list all the tasks.</h3>
-    <div v-for="task in tasks">
-      <p>
-        <span><b>{{ task.title }}</b></span><br />
-        <span>{{ task.description }}</span>
-      </p>
+    <div class="tasks-card" v-for="task in tasks">
+      <h4>{{ task.title }}</h4>
+      <p>{{ task.description }}</p>
     </div>
   </div>
 </template>
@@ -35,5 +32,14 @@ export default {
 </script>
 
 <style>
-
+.tasks-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.tasks-card h4 {
+  margin-bottom: 5px;
+}
 </style>
